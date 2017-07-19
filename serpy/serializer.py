@@ -112,7 +112,7 @@ class Serializer(six.with_metaclass(SerializerMeta, SerializerBase)):
                         result = result()
                     if to_value:
                         result = to_value(result)
-            if not display_none and result is None:
+            if not display_none and (result is None or result == []):
                 continue
             v[name] = result
 
