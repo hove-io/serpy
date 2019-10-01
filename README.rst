@@ -18,8 +18,8 @@ least an `order of magnitude
 <http://serpy.readthedocs.org/en/latest/performance.html>`_ faster.
 
 
-This is a forked version that include de possibility to remove None field from the output.
-It is recommanded that you used the upstream version available at  https://github.com/clarkduvall/serpy
+This is a forked version that include the possibility to remove None field from the output.
+It is recommended to use the upstream version available at https://github.com/clarkduvall/serpy
 
 
 Source
