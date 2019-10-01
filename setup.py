@@ -8,13 +8,13 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='serpy',
-    version='0.1.1',
-    description='ridiculously fast object serialization',
+    name='serpy-ctp',
+    version='0.2.1',
+    description='ridiculously fast object serialization fork by canaltp',
     long_description=long_description,
-    url='https://github.com/clarkduvall/serpy',
-    author='Clark DuVall',
-    author_email='clark.duvall@gmail.com',
+    url='https://github.com/canaltp/serpy',
+    maintainer='canaltp',
+    maintainer_email='navitia@canaltp.fr',
     license='MIT',
     install_requires=['six'],
     test_suite='tests',
@@ -39,4 +39,5 @@ setup(
         'tests*',
         'benchmarks'
     ]),
+    provides=["serpy"]
 )
