@@ -2,25 +2,6 @@
 serpy: ridiculously fast object serialization
 *********************************************
 
-.. container:: badges
-
-    .. image:: https://travis-ci.org/clarkduvall/serpy.svg?branch=master
-        :target: https://travis-ci.org/clarkduvall/serpy?branch=master
-        :alt: Travis-CI
-
-
-    .. image:: https://coveralls.io/repos/clarkduvall/serpy/badge.svg?branch=master
-        :target: https://coveralls.io/r/clarkduvall/serpy?branch=master
-        :alt: Coveralls
-
-    .. image:: https://readthedocs.org/projects/serpy/badge/?version=latest
-        :target: https://readthedocs.org/projects/serpy/?badge=latest
-        :alt: Documentation Status
-
-    .. image:: https://pypip.in/download/serpy/badge.svg
-        :target: https://pypi.python.org/pypi/serpy/
-        :alt: Downloads
-
 
 **serpy** is a super simple object serialization framework built for speed.
 **serpy** serializes complex datatypes (Django Models, custom classes, ...) to
@@ -35,6 +16,10 @@ Python serialization frameworks like `marshmallow
 <http://www.django-rest-framework.org/api-guide/serializers/>`_ **serpy** is at
 least an `order of magnitude
 <http://serpy.readthedocs.org/en/latest/performance.html>`_ faster.
+
+
+This is a forked version that include de possibility to remove None field from the output.
+It is recommanded that you used the upstream version available at  https://github.com/clarkduvall/serpy
 
 
 Source
