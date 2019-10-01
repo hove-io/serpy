@@ -9,12 +9,12 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='serpy-ctp',
-    version='0.2.0',
+    version='0.2.1',
     description='ridiculously fast object serialization fork by canaltp',
     long_description=long_description,
     url='https://github.com/canaltp/serpy',
-    author='canaltp',
-    author_email='navitia@canaltp.fr',
+    maintainer='canaltp',
+    maintainer_email='navitia@canaltp.fr',
     license='MIT',
     install_requires=['six'],
     test_suite='tests',
@@ -39,4 +39,5 @@ setup(
         'tests*',
         'benchmarks'
     ]),
+    provides=["serpy"]
 )
